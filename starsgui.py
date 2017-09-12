@@ -1416,6 +1416,7 @@ class App(GuiMixin, GuiMaker):   # or GuiMakerFrameMenu
         h = self.winfo_screenheight()
         w = self.winfo_screenwidth()
         geom = "%dx%d"%(w,h)
+        print geom
         self.master.geometry("600x400+0+0")
 
         # set to toolBar to have a toolbar :)
